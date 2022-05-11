@@ -23,8 +23,8 @@ public class CountryServiceImpl implements CountryService{
     }
 
     @Override
-    public void update(Country country) {
-        countryRepository.save(country);
+    public Country update(Country country) {
+     return    countryRepository.save(country);
 
     }
 }
