@@ -10,7 +10,7 @@ import javax.persistence.Table;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "sakila.actor")
+@Table(name = "actor")
 @Immutable
 @Data
 public class Actor {
